@@ -1,0 +1,10 @@
+# @name create text-file
+post http://localhost:3333/api/text/create
+Content-Type: application/json
+
+{
+  "title": "Tidulo do documento",
+  "content": "Conteúdo do documento que foi passado"
+}
+
+###
